@@ -4,20 +4,24 @@ import Footer from '@components/Footer'
 
 export default function Home() {
   return (
-    <div className="container">
-      <Head>
-        <title>Next.js Starter!</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+    <head>
+      <title="testiq">
+    <head>
+    <body>
 
-      <main>
-        <Header title="Welcome to my app 3!" />
-        <p className="description">
-          Get started by editing <code>pages/index.js</code>
-        </p>
-      </main>
+    <h1>Test IQ</h1>
+    <p>klik untuk memulai</p>
+    <form>
+      <input type="button" value="klik aku untuk memulai" onclick="msg()">
+    </form>
 
-      <Footer />
-    </div>
+    <script>
+    function msg() {
+      alert("data anda telah dikirim kepada user dzakiy");
+    }
+    </script>
+    </body>
+
+
   )
 }
